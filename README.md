@@ -1,2 +1,3 @@
-# -_introduction-lesson4
-С#_introduction-lesson4
+# introduction-lesson4
+Homework for lesson 4 from the C# introduction couse
+
