@@ -11,19 +11,19 @@ namespace task4
             int output = fibo(input);
             Console.WriteLine($"Число Фибоначчи номер {input} - это {output}");
         }
-        public static int fibo(int n)
+        public static int fibo(int num)
         {
-            if (n == 0)
+            if (num == 0)
             {
                 return 0;
             }
-            else if (n == 1)
+            else if (num == 1)
             {
                 return 1;
             }
             else
             {
-                return fibo(n - 1) + fibo(n - 2);
+                return fibo(num - 1) + fibo(num - 2);
             }
         }
     }
